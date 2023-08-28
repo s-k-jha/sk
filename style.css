@@ -130,7 +130,11 @@ header.shadow {
 }
 
 .home-img img {
-  width: 100%;
+  width: 70%;
+  border-radius: 50%;
+  border: 3px solid black;
+  
+
 }
 
 .home-text span {
@@ -189,7 +193,7 @@ header.shadow {
 }
 
 .about-img img {
-  width: 80%;
+  width: 90%;
   border-radius: 0.5rem;
 }
 
@@ -220,19 +224,19 @@ header.shadow {
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   align-items: center;
   gap: 2rem;
   margin-top: 4rem;
 }
 
 
-.skills-img img {
+/* .skills-img img {
   width: 120%;
   height: 400px;
   padding-left: 4rem;
   object-position: center;
-}
+} */
 
 .bars-box {
   position: relative;
@@ -347,12 +351,12 @@ span {
 .contact-form form {
   display: flex;
   flex-direction: column;
-  width: 650px;
+  width: 950px;
 }
 
 form input,
 textarea {
-  padding: 15px;
+  padding: 20px;
   border-radius: 0.5rem;
   width: 100%;
   border: none;
@@ -372,7 +376,7 @@ form textarea {
   height: 200px;
 }
 
-.contact-button {
+/* .contact-button {
   width: 160px;
   cursor: pointer;
   background: #2768d9;
@@ -381,11 +385,11 @@ form textarea {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-left: 35%;
-}
+} */
 
-.contact-button:hover {
+/* .contact-button:hover {
   background: var(--hover);
-}
+} */
 
 .footer {
   display: grid;
@@ -418,10 +422,10 @@ form textarea {
   text-align: center;
   color: #fff;
 }
-
+/* 
 .copyright a {
   color: #22cf91;
-}
+} */
 
 /* For Mobile */
 @media (max-width: 991px) {
@@ -562,10 +566,12 @@ form textarea {
   }
 }
 button{
-  border: 4px solid rgb(238, 25, 209);  
+  align-self: center;
+  border: 4px solid rgb(234, 9, 9);  
   background:  #033a80;
   color: white;
-  height: 40px;
+  height: 60px;
+  width: 20%;
   border-radius: 12px;
   text-transform: capitalize;
 }
