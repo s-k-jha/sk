@@ -132,8 +132,9 @@ header.shadow {
 .home-img img {
   width: 70%;
   border-radius: 50%;
-  border: 3px solid black;
-  
+  /* border: 3px solid black; */
+   box-shadow: 4px 4px 4px 4px black;
+   
 
 }
 
@@ -144,6 +145,13 @@ header.shadow {
 
 .home-text h1 {
   font-size: var(--big-font);
+  background: url('/images/bg-for-text.jpg');
+  background-size: cover;
+  /* background-position: center; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
 }
 
 .home-text h2 {
