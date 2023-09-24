@@ -239,12 +239,12 @@ header.shadow {
 }
 
 
-/* .skills-img img {
-  width: 120%;
-  height: 400px;
+.skills-img img {
+  width:10%;
+  height: 40px;
   padding-left: 4rem;
   object-position: center;
-} */
+}
 
 .bars-box {
   position: relative;
