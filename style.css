@@ -145,12 +145,12 @@ header.shadow {
 
 .home-text h1 {
   font-size: var(--big-font);
-  background: url('/images/bg-for-text.jpg');
+  background: url('./images/bg-for-text.jpg');
   background-size: cover;
   /* background-position: center; */
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
+  /* color: transparent; */
 
 }
 
